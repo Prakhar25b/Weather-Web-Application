@@ -1,4 +1,9 @@
-async function getWeather() {
+// The keys are now directly in this file
+const WEATHER_API_KEY = "8a1cd88d884289cecc1b7261b4320330"; 
+const UNSPLASH_ACCESS_KEY = "OGVjKxzwSHwZQzVVVEdScV2teSCZZumB2MLcBVBEDAE";
+
+// Your fetch calls should now use these variables directly
+  async function getWeather() {
   const city = document.getElementById("cityInput").value.trim();
   if (!city) return;
 
