@@ -1,2 +1,10 @@
+# Ignore the private configuration file containing API keys
 config.js
+
+# Ignore system-specific files
 .DS_Store
+Thumbs.db
+
+# Ignore local environment folders
+node_modules/
+.env
