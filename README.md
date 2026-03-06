@@ -1,6 +1,7 @@
 # Weather App 🌦️
 
 A sleek, responsive weather application featuring glassmorphism design and dynamic city-specific background images.
+[🔗 Live Demo](https://prakhar25b.github.io/Weather-Web-Application/)
 
 ## Features
 - **Real-time Weather:** Fetches data from OpenWeather API.
